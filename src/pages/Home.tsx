@@ -1,5 +1,6 @@
 import WorldLeaderTable from "../components/WorldLeaderTable";
 import { highJumpMen } from "../data/highJumpMen";
+import PerformanceChart from "../components/PerformanceChart";
 
 export default function Home() {
   return (
@@ -23,6 +24,8 @@ export default function Home() {
             </p>
           </div>
         </div>
+
+        <PerformanceChart leaders={highJumpMen} />
 
         <WorldLeaderTable leaders={highJumpMen} />
       </section>

@@ -243,6 +243,11 @@ tr.current .performance {
   line-height: 1;
 }
 
+.performance-chart {
+  width: 100%;
+  margin: 30px 0 40px;
+}
+
 @media (max-width: 640px) {
   .hero { padding: 56px 6% 48px; }
   .content, footer { width: 90%; }
